@@ -3,3 +3,58 @@
     padding: 0%;
     box-sizing: border-box;
 }
+body{
+    padding: 50px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    /* border-radius: 10px;   we can create box corner curve*/
+    /* border-radius: 50%;    we can create circle */
+     /* rotate: 20deg;         we can create box rotate */
+
+/* animation */
+
+     animation-name: animation01;
+     animation-duration: 2s;
+     position: relative;
+     animation-iteration-count: infinite;  /* animation repeat run */
+     animation-delay: 3s;    /* 3second wait and start */
+    }
+
+ /* @keyframes animation01{
+    from {background-color: red;}
+  to {background-color: yellow;}
+ }   */
+
+ /* @keyframes animation01{
+    0%{
+        background-color: aqua;
+    }
+    1%{
+        background-color: cadetblue;
+    }
+    10%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+ } */
+
+ @keyframes animation01{
+    from {
+        left: 0px;
+    }
+    to{
+        left: 50px;
+         background-color: rgb(174, 55, 15);  /*  move and box are change color brown*/
+          border-radius: 50%;     /*move and box are circle */
+    }
+ }
+   
+ 
